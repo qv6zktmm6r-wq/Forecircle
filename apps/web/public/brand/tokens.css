@@ -1,0 +1,75 @@
+/* ForeCircle 1.0 - Refined Original. Exact sRGB tokens. */
+@font-face {
+  font-family: "Manrope";
+  src: url("./fonts/Manrope.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 200 800;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Inter";
+  src: url("./fonts/Inter.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+}
+:root {
+  --fc-forest: #003d29;
+  --fc-fairway: #65b800;
+  --fc-ivory: #fff8ee;
+  --fc-sage: #e8f0e8;
+  --fc-sand: #d7cbb8;
+  --fc-charcoal: #182c24;
+  --fc-white: #ffffff;
+  --fc-muted: #53665b;
+  --fc-border: #7d8f82;
+  --fc-success: #207544;
+  --fc-warning: #865600;
+  --fc-error: #b33a32;
+  --fc-info: #23618b;
+  --fc-hover: #005438;
+  --fc-bg: var(--fc-ivory);
+  --fc-surface: var(--fc-white);
+  --fc-surface-muted: var(--fc-sage);
+  --fc-text: var(--fc-charcoal);
+  --fc-text-muted: var(--fc-muted);
+  --fc-primary: var(--fc-forest);
+  --fc-on-primary: var(--fc-ivory);
+  --fc-accent: var(--fc-fairway);
+  --fc-on-accent: var(--fc-charcoal);
+  --fc-font-heading: "Manrope", system-ui, sans-serif;
+  --fc-font-body: "Inter", system-ui, sans-serif;
+  --fc-radius-button: 12px;
+  --fc-radius-card: 16px;
+  --fc-radius-pill: 999px;
+}
+.fc-button {
+  min-height: 48px;
+  padding: 12px 20px;
+  border: 0;
+  border-radius: var(--fc-radius-button);
+  font: 700 16px/24px var(--fc-font-body);
+  cursor: pointer;
+}
+.fc-button-primary {
+  background: var(--fc-primary);
+  color: var(--fc-on-primary);
+}
+.fc-button-primary:hover {
+  background: var(--fc-hover);
+}
+.fc-button-accent {
+  background: var(--fc-accent);
+  color: var(--fc-on-accent);
+}
+.fc-button:focus-visible {
+  outline: 3px solid var(--fc-forest);
+  outline-offset: 3px;
+  box-shadow: 0 0 0 3px var(--fc-ivory);
+}
+.fc-text-link {
+  color: var(--fc-forest);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+/* Status labels: use the status color as foreground on white, or white text on that status color. Always include text or an icon. */

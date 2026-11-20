@@ -1,0 +1,491 @@
+{
+  "environment": "DEVELOPMENT_ONLY",
+  "golfers": [
+    {
+      "id": "demo-golfer-1",
+      "display_name": "Alex Demo",
+      "organizer_enabled": true
+    },
+    {
+      "id": "demo-golfer-2",
+      "display_name": "Jamie Demo",
+      "organizer_enabled": true
+    },
+    {
+      "id": "demo-golfer-3",
+      "display_name": "Taylor Demo",
+      "organizer_enabled": true
+    },
+    {
+      "id": "demo-golfer-4",
+      "display_name": "Casey Demo",
+      "organizer_enabled": true
+    },
+    {
+      "id": "demo-golfer-5",
+      "display_name": "Sam Demo",
+      "organizer_enabled": true
+    },
+    {
+      "id": "demo-golfer-6",
+      "display_name": "Jordan Demo",
+      "organizer_enabled": false
+    },
+    {
+      "id": "demo-golfer-7",
+      "display_name": "Riley Demo",
+      "organizer_enabled": false
+    },
+    {
+      "id": "demo-golfer-8",
+      "display_name": "Morgan Demo",
+      "organizer_enabled": false
+    },
+    {
+      "id": "demo-golfer-9",
+      "display_name": "Avery Demo",
+      "organizer_enabled": false
+    },
+    {
+      "id": "demo-golfer-10",
+      "display_name": "Cameron Demo",
+      "organizer_enabled": false
+    },
+    {
+      "id": "demo-golfer-11",
+      "display_name": "Quinn Demo",
+      "organizer_enabled": false
+    },
+    {
+      "id": "demo-golfer-12",
+      "display_name": "Hayden Demo",
+      "organizer_enabled": false
+    },
+    {
+      "id": "demo-golfer-13",
+      "display_name": "Reese Demo",
+      "organizer_enabled": false
+    },
+    {
+      "id": "demo-golfer-14",
+      "display_name": "Parker Demo",
+      "organizer_enabled": false
+    },
+    {
+      "id": "demo-golfer-15",
+      "display_name": "Rowan Demo",
+      "organizer_enabled": false
+    },
+    {
+      "id": "demo-golfer-16",
+      "display_name": "Sage Demo",
+      "organizer_enabled": false
+    },
+    {
+      "id": "demo-golfer-17",
+      "display_name": "Blake Demo",
+      "organizer_enabled": false
+    },
+    {
+      "id": "demo-golfer-18",
+      "display_name": "Drew Demo",
+      "organizer_enabled": false
+    },
+    {
+      "id": "demo-golfer-19",
+      "display_name": "Finley Demo",
+      "organizer_enabled": false
+    },
+    {
+      "id": "demo-golfer-20",
+      "display_name": "Ellis Demo",
+      "organizer_enabled": false
+    }
+  ],
+  "courses": [
+    {
+      "id": "demo-course-1",
+      "name": "Demo Fairway 1",
+      "city": "Demo City",
+      "state": "CA"
+    },
+    {
+      "id": "demo-course-2",
+      "name": "Demo Fairway 2",
+      "city": "Demo City",
+      "state": "CA"
+    },
+    {
+      "id": "demo-course-3",
+      "name": "Demo Fairway 3",
+      "city": "Demo City",
+      "state": "CA"
+    },
+    {
+      "id": "demo-course-4",
+      "name": "Demo Fairway 4",
+      "city": "Demo City",
+      "state": "CA"
+    },
+    {
+      "id": "demo-course-5",
+      "name": "Demo Fairway 5",
+      "city": "Demo City",
+      "state": "CA"
+    },
+    {
+      "id": "demo-course-6",
+      "name": "Demo Fairway 6",
+      "city": "Demo City",
+      "state": "CA"
+    },
+    {
+      "id": "demo-course-7",
+      "name": "Demo Fairway 7",
+      "city": "Demo City",
+      "state": "CA"
+    },
+    {
+      "id": "demo-course-8",
+      "name": "Demo Fairway 8",
+      "city": "Demo City",
+      "state": "CA"
+    },
+    {
+      "id": "demo-course-9",
+      "name": "Demo Fairway 9",
+      "city": "Demo City",
+      "state": "CA"
+    },
+    {
+      "id": "demo-course-10",
+      "name": "Demo Fairway 10",
+      "city": "Demo City",
+      "state": "CA"
+    },
+    {
+      "id": "demo-course-11",
+      "name": "Demo Fairway 11",
+      "city": "Demo City",
+      "state": "CA"
+    },
+    {
+      "id": "demo-course-12",
+      "name": "Demo Fairway 12",
+      "city": "Demo City",
+      "state": "CA"
+    },
+    {
+      "id": "demo-course-13",
+      "name": "Demo Fairway 13",
+      "city": "Demo City",
+      "state": "CA"
+    },
+    {
+      "id": "demo-course-14",
+      "name": "Demo Fairway 14",
+      "city": "Demo City",
+      "state": "CA"
+    },
+    {
+      "id": "demo-course-15",
+      "name": "Demo Fairway 15",
+      "city": "Demo City",
+      "state": "CA"
+    }
+  ],
+  "circles": [
+    {
+      "id": "demo-circle-1",
+      "name": "Demo Circle 1",
+      "founder_id": "demo-golfer-1"
+    },
+    {
+      "id": "demo-circle-2",
+      "name": "Demo Circle 2",
+      "founder_id": "demo-golfer-2"
+    },
+    {
+      "id": "demo-circle-3",
+      "name": "Demo Circle 3",
+      "founder_id": "demo-golfer-3"
+    },
+    {
+      "id": "demo-circle-4",
+      "name": "Demo Circle 4",
+      "founder_id": "demo-golfer-4"
+    },
+    {
+      "id": "demo-circle-5",
+      "name": "Demo Circle 5",
+      "founder_id": "demo-golfer-5"
+    },
+    {
+      "id": "demo-circle-6",
+      "name": "Demo Circle 6",
+      "founder_id": "demo-golfer-1"
+    }
+  ],
+  "rounds": [
+    {
+      "id": "demo-round-1",
+      "title": "Demo open round 1",
+      "host_id": "demo-golfer-1",
+      "course_id": "demo-course-1",
+      "capacity": 4
+    },
+    {
+      "id": "demo-round-2",
+      "title": "Demo open round 2",
+      "host_id": "demo-golfer-2",
+      "course_id": "demo-course-2",
+      "capacity": 4
+    },
+    {
+      "id": "demo-round-3",
+      "title": "Demo open round 3",
+      "host_id": "demo-golfer-3",
+      "course_id": "demo-course-3",
+      "capacity": 4
+    },
+    {
+      "id": "demo-round-4",
+      "title": "Demo open round 4",
+      "host_id": "demo-golfer-4",
+      "course_id": "demo-course-4",
+      "capacity": 4
+    },
+    {
+      "id": "demo-round-5",
+      "title": "Demo open round 5",
+      "host_id": "demo-golfer-5",
+      "course_id": "demo-course-5",
+      "capacity": 4
+    },
+    {
+      "id": "demo-round-6",
+      "title": "Demo open round 6",
+      "host_id": "demo-golfer-6",
+      "course_id": "demo-course-6",
+      "capacity": 4
+    },
+    {
+      "id": "demo-round-7",
+      "title": "Demo open round 7",
+      "host_id": "demo-golfer-7",
+      "course_id": "demo-course-7",
+      "capacity": 4
+    },
+    {
+      "id": "demo-round-8",
+      "title": "Demo open round 8",
+      "host_id": "demo-golfer-8",
+      "course_id": "demo-course-8",
+      "capacity": 4
+    },
+    {
+      "id": "demo-round-9",
+      "title": "Demo open round 9",
+      "host_id": "demo-golfer-9",
+      "course_id": "demo-course-9",
+      "capacity": 4
+    },
+    {
+      "id": "demo-round-10",
+      "title": "Demo open round 10",
+      "host_id": "demo-golfer-10",
+      "course_id": "demo-course-10",
+      "capacity": 4
+    },
+    {
+      "id": "demo-round-11",
+      "title": "Demo open round 11",
+      "host_id": "demo-golfer-11",
+      "course_id": "demo-course-11",
+      "capacity": 4
+    },
+    {
+      "id": "demo-round-12",
+      "title": "Demo open round 12",
+      "host_id": "demo-golfer-12",
+      "course_id": "demo-course-12",
+      "capacity": 4
+    }
+  ],
+  "tournaments": [
+    {
+      "id": "demo-tournament-1",
+      "title": "Demo scramble 1",
+      "capacity": 32,
+      "organizer_id": "demo-golfer-1",
+      "challenges": [
+        "Closest to pin",
+        "Longest drive",
+        "Most birdies"
+      ]
+    },
+    {
+      "id": "demo-tournament-2",
+      "title": "Demo scramble 2",
+      "capacity": 32,
+      "organizer_id": "demo-golfer-2",
+      "challenges": [
+        "Closest to pin",
+        "Longest drive",
+        "Most birdies"
+      ]
+    },
+    {
+      "id": "demo-tournament-3",
+      "title": "Demo scramble 3",
+      "capacity": 32,
+      "organizer_id": "demo-golfer-3",
+      "challenges": [
+        "Closest to pin",
+        "Longest drive",
+        "Most birdies"
+      ]
+    },
+    {
+      "id": "demo-tournament-4",
+      "title": "Demo scramble 4",
+      "capacity": 32,
+      "organizer_id": "demo-golfer-4",
+      "challenges": [
+        "Closest to pin",
+        "Longest drive",
+        "Most birdies"
+      ]
+    },
+    {
+      "id": "demo-tournament-5",
+      "title": "Demo scramble 5",
+      "capacity": 32,
+      "organizer_id": "demo-golfer-5",
+      "challenges": [
+        "Closest to pin",
+        "Longest drive",
+        "Most birdies"
+      ]
+    }
+  ],
+  "registrations": [
+    {
+      "event_id": "demo-tournament-1",
+      "golfer_id": "demo-golfer-1",
+      "status": "confirmed"
+    },
+    {
+      "event_id": "demo-tournament-2",
+      "golfer_id": "demo-golfer-2",
+      "status": "confirmed"
+    },
+    {
+      "event_id": "demo-tournament-3",
+      "golfer_id": "demo-golfer-3",
+      "status": "confirmed"
+    },
+    {
+      "event_id": "demo-tournament-4",
+      "golfer_id": "demo-golfer-4",
+      "status": "confirmed"
+    },
+    {
+      "event_id": "demo-tournament-5",
+      "golfer_id": "demo-golfer-5",
+      "status": "confirmed"
+    },
+    {
+      "event_id": "demo-tournament-1",
+      "golfer_id": "demo-golfer-6",
+      "status": "confirmed"
+    },
+    {
+      "event_id": "demo-tournament-2",
+      "golfer_id": "demo-golfer-7",
+      "status": "confirmed"
+    },
+    {
+      "event_id": "demo-tournament-3",
+      "golfer_id": "demo-golfer-8",
+      "status": "confirmed"
+    },
+    {
+      "event_id": "demo-tournament-4",
+      "golfer_id": "demo-golfer-9",
+      "status": "confirmed"
+    },
+    {
+      "event_id": "demo-tournament-5",
+      "golfer_id": "demo-golfer-10",
+      "status": "confirmed"
+    },
+    {
+      "event_id": "demo-tournament-1",
+      "golfer_id": "demo-golfer-11",
+      "status": "confirmed"
+    },
+    {
+      "event_id": "demo-tournament-2",
+      "golfer_id": "demo-golfer-12",
+      "status": "confirmed"
+    },
+    {
+      "event_id": "demo-tournament-3",
+      "golfer_id": "demo-golfer-13",
+      "status": "confirmed"
+    },
+    {
+      "event_id": "demo-tournament-4",
+      "golfer_id": "demo-golfer-14",
+      "status": "confirmed"
+    },
+    {
+      "event_id": "demo-tournament-5",
+      "golfer_id": "demo-golfer-15",
+      "status": "confirmed"
+    },
+    {
+      "event_id": "demo-tournament-1",
+      "golfer_id": "demo-golfer-16",
+      "status": "confirmed"
+    },
+    {
+      "event_id": "demo-tournament-2",
+      "golfer_id": "demo-golfer-17",
+      "status": "confirmed"
+    },
+    {
+      "event_id": "demo-tournament-3",
+      "golfer_id": "demo-golfer-18",
+      "status": "confirmed"
+    },
+    {
+      "event_id": "demo-tournament-4",
+      "golfer_id": "demo-golfer-19",
+      "status": "confirmed"
+    },
+    {
+      "event_id": "demo-tournament-5",
+      "golfer_id": "demo-golfer-20",
+      "status": "confirmed"
+    }
+  ],
+  "chat": [
+    {
+      "round_id": "demo-round-1",
+      "sender_id": "demo-golfer-1",
+      "body": "Demo: see you at the first tee."
+    }
+  ],
+  "ideas": [
+    {
+      "title": "Demo handicap balancing",
+      "status": "planned"
+    },
+    {
+      "title": "Demo QR check-in",
+      "status": "submitted"
+    }
+  ]
+}

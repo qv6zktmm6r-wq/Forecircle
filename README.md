@@ -1,14 +1,42 @@
 # ForeCircle
 
-**Meet. Play. Compete.**
+**Meet. Play. Compete.** Find your people. Play more golf.
 
-Find your people. Play more golf.
+ForeCircle is a social golf community for finding open rounds, joining Circles, and organizing tournaments. This repository contains the Next.js preview, shared packages, Supabase migration, tests, and the Refined Original brand kit.
 
-ForeCircle is a social golf community for meeting golfers, finding open rounds, creating Circles, organizing events, and competing together.
+The preview supports browser-local community workflows. Live multi-user features require a dedicated Supabase project and further implementation. See the [delivery status](docs/STATUS.md) and [roadmap](docs/ROADMAP.md).
 
-- Primary domain: **ForeCircleGolf.com**
-- App domain: **ForeCircle.app**
-- Current brand direction: **Refined Original** - the forest-green circle, golf flag, and putting-green emblem.
+The marketing domain is **ForeCircleGolf.com** and the app domain is **ForeCircle.app**.
+
+## Start
+
+Node 24 and pnpm 11.25.0.
+
+```sh
+pnpm install
+pnpm dev:web
+pnpm typecheck
+pnpm test
+pnpm build
+```
+
+`dev` is intentionally empty so Sites previews serve the tested static export. `dev:web` runs Next.js development; the Sites preview harness's Vite-style flags are normalized by `scripts/dev.mjs`. Use `pnpm build` before starting the static Sites preview. Restart that preview after a rebuild replaces `out/`.
+
+## Structure
+
+- `apps/web/`: Next.js App Router, React, TypeScript, Tailwind v4, shared UI and responsive pages.
+- `packages/config/`: brand, tokens, feature flags.
+- `packages/types/`: platform entities for web and future mobile.
+- `packages/validation/`: Zod input schemas.
+- `packages/database/`: Supabase client, authenticated profile service, payment interface stub.
+- `packages/utilities/`: framework-independent rules and analytics abstraction.
+- `supabase/migrations/`: foundation schema and mandatory RLS.
+- `supabase/seed/`: development fixture strategy, never automatically applied.
+- `tests/`: business rules and SQL/RLS integration tests with PGlite and a mocked Supabase auth schema.
+
+## Setup gate
+
+Copy `.env.example` to `apps/web/.env.local`, configure only the project URL and publishable key, and apply the reviewed migration to a dedicated development project. No service-role key belongs in client code. Configure auth redirect URLs. Run hosted RLS tests and real account verification before enabling any production community workflow.
 
 ## Brand files
 
@@ -43,8 +71,6 @@ Use **Manrope 700-800** for headings and **Inter 400-700** for body copy and int
 
 The exact token values take precedence over colors sampled from generated previews. Use ivory text on forest-green buttons and charcoal text on bright-green buttons.
 
-## Repository status
+The original ZIP and its standalone guide were both recovered. The [separate PDF](branding/reference/ForeCircle_Brand_Guide_Standalone.pdf) is preserved alongside the kit edition. The [reference folder](branding/reference/) includes the concept artwork. The supplied wordmark is raster artwork. Vector and embroidery masters remain production follow-ups.
 
-This initial repository contains brand assets and implementation guidance. The application mockups are visual concepts; they are not screenshots of a deployed or implemented product. The supplied logo is raster PNG artwork. Vector, emblem-only, print separation, and embroidery files remain production follow-ups.
-
-See [branding/SHA256SUMS.txt](branding/SHA256SUMS.txt) for asset integrity checks. The ZIP is the original downloadable kit; the selected-reference image and repository handoff are also available separately in this repository.
+Verify the brand files from the repository root with `sha256sum -c branding/SHA256SUMS.txt`.

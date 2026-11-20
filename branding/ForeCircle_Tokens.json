@@ -1,0 +1,116 @@
+{
+  "brand": "ForeCircle",
+  "version": "1.0",
+  "direction": "Refined Original",
+  "tagline": "Meet. Play. Compete.",
+  "message": "Find your people. Play more golf.",
+  "colorSpace": "sRGB",
+  "colors": {
+    "forest": "#003D29",
+    "fairway": "#65B800",
+    "ivory": "#FFF8EE",
+    "sage": "#E8F0E8",
+    "sand": "#D7CBB8",
+    "charcoal": "#182C24",
+    "white": "#FFFFFF",
+    "muted": "#53665B",
+    "border": "#7D8F82",
+    "success": "#207544",
+    "warning": "#865600",
+    "error": "#B33A32",
+    "info": "#23618B",
+    "hover": "#005438"
+  },
+  "semantic": {
+    "background": "#FFF8EE",
+    "surface": "#FFFFFF",
+    "surfaceMuted": "#E8F0E8",
+    "text": "#182C24",
+    "textMuted": "#53665B",
+    "primary": "#003D29",
+    "onPrimary": "#FFF8EE",
+    "primaryHover": "#005438",
+    "accent": "#65B800",
+    "onAccent": "#182C24",
+    "inputBorder": "#7D8F82",
+    "success": "#207544",
+    "warning": "#865600",
+    "error": "#B33A32",
+    "info": "#23618B"
+  },
+  "typography": {
+    "heading": {
+      "family": "Manrope",
+      "weights": [
+        700,
+        800
+      ]
+    },
+    "body": {
+      "family": "Inter",
+      "weights": [
+        400,
+        500
+      ]
+    },
+    "label": {
+      "family": "Inter",
+      "weights": [
+        600,
+        700
+      ]
+    },
+    "scalePx": {
+      "display": [
+        64,
+        70
+      ],
+      "mobileDisplay": [
+        40,
+        46
+      ],
+      "h1": [
+        40,
+        48
+      ],
+      "h2": [
+        28,
+        36
+      ],
+      "h3": [
+        20,
+        28
+      ],
+      "body": [
+        16,
+        24
+      ],
+      "small": [
+        14,
+        20
+      ]
+    }
+  },
+  "radiusPx": {
+    "button": 12,
+    "card": 16,
+    "pill": 999
+  },
+  "spacingPx": [
+    4,
+    8,
+    12,
+    16,
+    24,
+    32,
+    48,
+    64
+  ],
+  "targetSizePx": 48,
+  "contrast": {
+    "Forest on Ivory": 11.717,
+    "Ivory on Forest": 11.717,
+    "Charcoal on Fairway": 5.903,
+    "Muted text on Ivory": 5.824
+  }
+}
